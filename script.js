@@ -11,14 +11,18 @@ let t = 1
 
 
 for (t = 1; t <= n; t++) {
+    para.innerHTML += `<br><b>Table of ${t}</b><br><br>`
     for (i = 1; i <= 10; i++) {
-        h1.innerHTML = `Table from 1 to ${n}`
         para.innerHTML += (`${t} x ${i} = ${t * i} <br>`)
     }
-
 }
 
-
-
+// Billing system
+// input consume units
+// second input unit cost
+// print bill accoring to condition
+// if unit = 50 then cost will be rs 10
+// if unit = 51 to 100 then cost will be rs 13
+// on  every 50 unit increase the cost will be added as rs 3
 
 
