@@ -17,12 +17,5 @@ for (t = 1; t <= n; t++) {
     }
 }
 
-// Billing system
-// input consume units
-// second input unit cost
-// print bill accoring to condition
-// if unit = 50 then cost will be rs 10
-// if unit = 51 to 100 then cost will be rs 13
-// on  every 50 unit increase the cost will be added as rs 3
 
 
